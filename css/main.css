@@ -1,0 +1,917 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrapper {
+    width: 1400px;
+    height: 4510px;
+    margin: 0 auto;
+}
+
+[class*="__container"] {
+    padding-left: 140px;
+    padding-right: 140px;
+}
+
+.header__container {
+    background-color: black;
+    align-items: center;
+    height: 74px;
+}
+
+.header__logo {
+    color: white;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    font-size: 27px;
+    padding-top: 25px;
+    display: inline-block;
+}
+
+.logo__span {
+    color: coral;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+}
+
+.header__nav {
+    padding-left: 582px;
+    display: inline-block; 
+}
+
+.nav__list {
+    word-spacing: 26px;
+}
+
+.nav__list__item {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    display: inline-block;
+    list-style-type: none;
+}
+
+.nav__list__item__link {
+    color: white;
+    opacity: 0.6;
+    text-decoration: none;
+} 
+
+.header {
+    position: sticky;
+    top: 0;
+    z-index: 2;
+}
+
+.main__container {
+    background: url(../img/logo-city-background.png)  #363535;
+    height: 638px;
+    background-size: cover;
+    background-blend-mode: soft-light;
+}
+
+.main__registration__info {
+    width: 512px;
+    height: 550px;
+    display: inline-block;
+}
+
+.main__registration__info__logo {
+    color: white;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    font-size: 80px;
+    padding-top: 150px;
+}
+
+.main__registration__info__logo__span {
+    color: coral;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+}
+
+.main__registration__info__title {
+    font-family: 'Raleway', sans-serif;
+    color: white;
+    text-transform: uppercase;
+    font-size: 33px;
+    padding-top: 33px;
+    line-height: 40px;
+}
+
+.main__registration__info__line {
+    background-color: white;
+    width: 64px;
+    height: 2px;
+    border: none;
+    margin-top: 36px;
+}
+
+.main__registration__info__subtitle {
+    font-family: 'Raleway', sans-serif;
+    color: #86878B;
+    margin-top: 30px;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.main__registration__info__button {
+    text-decoration: none;
+    color: white;
+    border-radius: 1px;
+    border: 3px solid white;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    background: none;
+    font-size: 15px;
+    margin-top: 30px;
+    display: inline-block;
+    padding: 10px 20px;
+}
+
+.main__registration__card {
+    display: inline-block;
+    width: 374px;
+    height: 368px;
+    vertical-align: top;
+    margin-top: 150px;
+}
+
+.main__registration__card__header {
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    border: 3px rgb(230, 230, 230);
+    margin-left: 200px;
+    text-align: center;
+    background-color:rgb(230, 230, 230);
+    width: 360px;
+    height: 44px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    display: inline-block;
+    text-transform: capitalize;
+    padding-top: 11px;
+    font-size: 20px;
+    margin-top: 50px;
+}
+
+.main__registration__card__header__span {
+    color: coral;
+    text-transform: uppercase;
+}
+
+.main__registration__card__form__item {
+    display: inline-block;
+    margin-left: 200px;
+    border: none;
+    width: 360px;
+    height: 60px;
+    text-align: center;
+    border-bottom: 2px solid whitesmoke;
+}
+
+.main__registration__card__form__button { 
+    display: inline-block;
+    margin-left: 200px;
+    border: none;
+    width: 360px;
+    height: 44px;
+    text-align: center;
+    border-bottom: 2px;
+    background-color: coral;
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+    text-transform: capitalize;
+    padding-top: 11px;
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+}
+ 
+.main__footer__container {
+    background-color:whitesmoke;
+    height: 108px;
+}
+
+.main__footer__info {
+    width: 360px;
+}
+
+.main__footer__title {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    color: #333333;
+    padding-top: 12px;
+    width: 200px;
+    height: 17px;
+    /* display: inline-block; */
+}    
+
+.main__footer__subtitle {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    color: #86878B;
+    width: 360px;
+    margin-top: 30px; 
+}
+
+.main__footer__list {
+    vertical-align: top;
+    margin-left: 50px;
+    display: inline-block;
+    width: 600px;
+    height: 60px;
+    position: relative;
+    z-index: 1;
+    left: 600px;
+    bottom: 50px;
+}
+
+.main__footer__list__item {
+    display: inline-block;
+    vertical-align: top;
+    background: no-repeat url(../img/facebook-icon.png);
+    background-size: 56px;
+    list-style-type: none;
+    height: 50px;
+    width: 50px;
+    padding-left: 20px;
+}
+
+.main__footer__list__item__link {
+    display: inline-block;
+    vertical-align: top;
+    height: 50px;
+    width: 50px;
+}
+
+.main__tabs__container {
+    background-color: #eaebec;
+    height: 598px;
+}
+
+.main__tabs__boxes {
+    padding-top: 149px;
+    height: 336px;
+    width: 112px;
+}
+
+.main__tabs__tab1 {
+    border-top-left-radius: 2px;
+    border-top-right-radius: 2px;
+    width: 112px;
+    height: 112px;
+    background-color: coral;
+    text-align: center;
+    padding-top: 50px;
+    text-transform: uppercase;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+    color: white;
+}
+
+.main__tabs__tab2 {
+    width: 112px;
+    height: 112px;
+    background-color:#333333;
+    text-align: center;
+    padding-top: 50px;
+    text-transform: uppercase;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+    color: white;
+}
+
+.main__tabs__tab3 {
+    border-bottom-left-radius: 2px;
+    border-bottom-right-radius: 2px;
+    width: 112px;
+    height: 112px;
+    background-color: #333333;
+    text-align: center;
+    padding-top: 50px;
+    text-transform: uppercase;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+    color: white;
+}
+
+.main__tabs__info {
+    display: inline-block;
+    height: 336px;
+    width: 476px;
+    position: relative;
+    left: 250px;
+    bottom: 180px;
+}
+
+.main__tabs__info__title {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.main__tabs__info__text {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    color: #86878B;
+    padding-top: 52px;    
+}
+
+.main__tabs__info__button {
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+    text-decoration: none;
+    color: white;
+    border-radius: 1px;
+    border: 3px solid coral;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    background-color: coral;
+    font-size: 15px;
+    margin-top: 50px;
+    padding: 10px 20px;
+    position: relative;
+    top: 50px;
+}
+
+.main__tabs__img {
+   padding-left: 300px; 
+   position: relative;
+   bottom: 150px;
+}
+
+.main__ourprocess__container {
+    height: 595px;
+}
+
+
+.main__ourprocess__title {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 36px;
+    text-align: center;
+    padding-top: 110px;
+    text-transform: uppercase;
+}
+
+.main__ourprocess__line {
+    background-color: coral;
+    width: 64px;
+    height: 2px;
+    border: none;
+    margin: 30px auto;
+}
+
+.main__ourprocess__subtitle {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    color: #86878B;
+    text-align: center;
+}
+
+.main__ourprocess__box {
+    width: 350px;
+    height: 197px;
+    display: inline-block;
+    padding-top: 80px;
+    text-align: center;
+    margin-left: 14px;
+}
+
+.main__ourprocess__box__icon-lamp {
+    width: 70px;
+    height: 70px;
+    border: 2px solid coral;
+    border-radius: 50%;
+    margin: 0 auto;
+    background: no-repeat center url(../img/lamp.png);
+}
+
+.main__ourprocess__box__icon-keyboard {
+    width: 70px;
+    height: 70px;
+    border: 2px solid coral;
+    border-radius: 50%;
+    margin: 0 auto;
+    background: no-repeat center url(../img/keyboard.png);
+}
+
+.main__ourprocess__box__icon-lightning {
+    width: 70px;
+    height: 70px;
+    border: 2px solid coral;
+    border-radius: 50%;
+    margin: 0 auto;
+    background: no-repeat center url(../img/lightning.png);
+}
+
+.main__ourprocess__box__title {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    padding-top: 29px;
+    text-transform: capitalize;
+}
+
+.main__ourprocess__box__text {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    color: #86878B;
+    padding-top: 29px;
+}
+
+.main__pricing__container {
+    height: 886px;
+    background-color: #eaebec;
+    text-align: center;
+    width: 1400px;
+}
+
+.main__pricing__title {
+    font-family: 'Raleway', sans-serif;
+    font-size: 36px;
+    text-transform: uppercase;
+    padding-top: 110px;
+    font-weight: 400;
+}
+
+.main__pricing__line {
+    background-color: coral;
+    width: 64px;
+    height: 2px;
+    border: none;
+    margin: 30px auto;
+}
+
+.main__pricing__subtitle {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    color: #86878B;
+}
+
+.main__pricing__box-basic {
+    width: 343px;
+    height: 462px;
+    display: inline-block;
+    
+}
+
+.main__pricing__box-professional {
+    width: 343px;
+    height: 462px;
+    display: inline-block;
+    margin-left: 30px;
+}
+
+.main__pricing__box-enterprise {
+    width: 343px;
+    height: 462px;
+    display: inline-block;
+    margin-left: 30px;
+}
+
+.main__pricing__box-basic__title {
+    width: 343px;
+    height: 59px;
+    background-color:  #333333;
+    color: white;
+    margin-bottom: 1px;
+    margin-top: 115px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    padding-top: 20px;
+}
+
+.main__pricing__box-basic__info {
+    width: 343px;
+    height: 100px;
+    background-color:  #333333;
+    color: white; 
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;  
+    font-size: 36px;
+    margin-bottom: 1px;
+}
+
+.main__pricing__box-basic__info__span {
+    font-size: 80px;
+}
+
+.main__pricing__box-basic__description {
+    width: 343px;
+    height: 51px;
+    background-color:  #333333;
+    color: #86878B;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    padding-top: 17px;
+    text-transform: capitalize;
+    font-style: italic;
+}
+
+.main__pricing__box-basic__line {
+    background-color: coral;
+    width: 343px;
+    height: 5px;
+    border: none;
+}
+
+.main__pricing__box-basic__list__item {
+    width: 343px;
+    height: 40px;
+    list-style-type: none;
+    background-color: white;
+    border-bottom: 2px solid whitesmoke;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    color: #86878B;
+    padding-top: 10px;
+    text-transform: uppercase;
+}
+
+.main__pricing__box-professional__title {
+    width: 343px;
+    height: 59px;
+    background-color:  #333333;
+    color: white;
+    margin-bottom: 1px;
+    margin-top: 115px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    padding-top: 20px;
+}
+
+.main__pricing__box-professional__info {
+    width: 343px;
+    height: 100px;
+    background-color:  #333333;
+    color: white; 
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;  
+    font-size: 36px;
+    margin-bottom: 1px;
+}
+
+.main__pricing__box-professional__info__span {
+    font-size: 80px;
+}
+
+.main__pricing__box-professional__description {
+    width: 343px;
+    height: 51px;
+    background-color:  #333333;
+    color: #86878B;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    padding-top: 17px;
+    text-transform: capitalize;
+    font-style: italic;
+}
+
+.main__pricing__box-professional__subdescription {
+    background-color: coral;
+    width: 343px;
+    height: 40px;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    padding-top: 10px;
+}
+
+.main__pricing__box-professional__list__item {
+    width: 343px;
+    height: 40px;
+    list-style-type: none;
+    background-color: white;
+    border-bottom: 2px solid whitesmoke;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    color: #86878B;
+    padding-top: 10px;
+    text-transform: uppercase;
+}
+
+.main__pricing__box-enterprise__title {
+    width: 343px;
+    height: 59px;
+    background-color:  #333333;
+    color: white;
+    margin-bottom: 1px;
+    margin-top: 115px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    padding-top: 20px;
+}
+
+.main__pricing__box-enterprise__info {
+    width: 343px;
+    height: 100px;
+    background-color:  #333333;
+    color: white; 
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;  
+    font-size: 36px;
+    margin-bottom: 1px;
+}
+
+.main__pricing__box-enterprise__info__span {
+    font-size: 80px;
+}
+
+.main__pricing__box-enterprise__description {
+    width: 343px;
+    height: 51px;
+    background-color:  #333333;
+    color: #86878B;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    padding-top: 17px;
+    text-transform: capitalize;
+    font-style: italic;
+}
+
+.main__pricing__box-enterprise__line {
+    background-color: coral;
+    width: 343px;
+    height: 5px;
+    border: none;
+}
+
+.main__pricing__box-enterprise__list__item {
+    width: 343px;
+    height: 40px;
+    list-style-type: none;
+    background-color: white;
+    border-bottom: 2px solid whitesmoke;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    color: #86878B;
+    padding-top: 10px;
+    text-transform: uppercase;
+}
+
+.main__customers__container {
+    width: 1400px;
+    height: 594px;
+    text-align: center;
+}
+
+.main__customers__title {
+    font-family: 'Raleway', sans-serif;
+    font-size: 36px;
+    text-transform: uppercase;
+    padding-top: 110px;
+    font-weight: 400;
+}
+
+.main__customers__line {
+    background-color: coral;
+    width: 64px;
+    height: 2px;
+    border: none;
+    margin: 30px auto;
+}
+
+.main__customers__subtitle {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    color: #86878B;
+}
+
+.main__customers__review {
+    width: 273px;
+    height: 225px;
+    padding-top: 55px;
+    display: inline-block;
+    margin-left: 90px;
+}
+
+.main__customers__review__text {
+    background-color: #eaebec;
+    width: 273px;
+    height: 147px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    color: #86878B;
+    padding-top: 20px;
+    font-style: italic;
+}
+
+.main__customers__review__avatar {
+    width: 273px;
+    height: 94px;
+}
+
+.main__customers__review__avatar__img {
+    display: inline-block;
+    /* width: 70px;
+    height: 70px; */
+    margin-top: 20px;
+    padding-right: 50px;
+}
+
+.main__customers__review__avatar__text {
+    display: inline-block;
+    /* width: 98px;
+    height: 50px; */
+    vertical-align:top;
+    padding-top: 30px;
+    margin-right: 30px;
+}
+
+.main__customers__review__avatar__name {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.main__customers__review__avatar__position {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    color: #86878B;
+}
+
+.main__stylish__container {
+    background: no-repeat center url(../img/download-city-background.jpg)  #363535;
+    background-size: cover;
+    width: 1400px;
+    height: 325px;
+    background-blend-mode: soft-light;
+    text-align: center;
+}
+
+.main__stylish__title {
+    font-family: 'Raleway', sans-serif;
+    font-size: 36px;
+    color: white;
+    font-weight: 400;
+    padding-top: 80px;
+}
+
+.main__stylish__line {
+    background-color: white;
+    width: 64px;
+    height: 2px;
+    border: none;
+    margin: 30px auto;
+}
+
+.main__stylish__subtitle {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    color: #86878B;
+}
+
+.main__stylish__button {
+    text-decoration: none;
+    color: white;
+    border-radius: 1px;
+    border: 3px solid white;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    background: none;
+    font-size: 15px;
+    margin-top: 30px;
+    display: inline-block;
+    padding: 10px 20px;
+}
+
+.main__contact__container {
+    width: 1400px;
+    height: 615px;
+    text-align: center;
+}
+
+.main__contact__title {
+    font-family: 'Raleway', sans-serif;
+    font-size: 36px;
+    color: #212121;
+    font-weight: 400;
+    padding-top: 80px;
+}
+
+.main__contact__line {
+    background-color: coral;
+    width: 64px;
+    height: 2px;
+    border: none;
+    margin: 30px auto;
+}
+
+.main__contact__subtitle {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    color: #86878B;
+}
+
+.main__contact__form {
+    width: 520px;
+    height: 153px;
+    margin-top: 80px;
+    display: inline-block;
+}
+
+.main__contact__form__item {
+    display: inline-block;
+    margin-bottom: 30px;
+    border: none;
+    width: 520px;
+    height: 30px;
+    text-align: start;
+    border-bottom: 2px solid whitesmoke;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    color: #86878B;
+}
+
+.main__contact__form__message {
+    width: 520px;
+    height: 153px;
+    margin-top: 80px;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.main__contact__form__message__item {
+    display: inline-block;
+    border: none;
+    width: 520px;
+    height: 140px;
+    text-align:start;
+    border-bottom: 2px solid whitesmoke;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    color: #86878B;
+}
+
+.main__contact__button {
+    text-decoration: none;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    background: coral;
+    font-size: 15px;
+    margin-top: 70px;
+    display: inline-block;
+    padding: 10px 20px;
+}
+
+.footer {
+    background-color: black;
+    width: 1400px;
+    height: 103px;
+}
+
+.footer__list {
+    padding-top: 30px;
+    margin: 0 auto;
+    width: 317px;
+    height: 23px;
+    padding-left: 40px;
+}
+
+.footer__list__item {
+    display: inline-block;
+    background: center no-repeat url(../img/facebook.png);
+    background-size: 30px;
+    list-style-type: none;
+    height: 30px;
+    width: 30px;
+    word-spacing: px;
+}
+
+.footer__list__item__link {
+    display: inline-block;
+    vertical-align: top;
+    height: 23px;
+    width: 23px;
+}
+
+.footer__text {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+    color: #86878B;
+    text-align: center;
+    padding-top: 45px;
+}
